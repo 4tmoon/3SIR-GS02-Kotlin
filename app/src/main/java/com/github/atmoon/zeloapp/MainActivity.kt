@@ -4,11 +4,11 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.zelo.app.data.local.ZeloDatabase
-import com.zelo.app.data.repository.IssueRepository
-import com.zelo.app.ui.navigation.ZeloNavGraph
-import com.zelo.app.ui.theme.ZeloTheme
-import com.zelo.app.ui.viewmodel.ZeloViewModel
+import com.github.atmoon.zeloapp.data.local.ZeloDatabase
+import com.github.atmoon.zeloapp.data.repository.IssueRepository
+import com.github.atmoon.zeloapp.ui.navigation.ZeloNavGraph
+import com.github.atmoon.zeloapp.ui.theme.ZeloTheme
+import com.github.atmoon.zeloapp.ui.viewmodel.ZeloViewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
